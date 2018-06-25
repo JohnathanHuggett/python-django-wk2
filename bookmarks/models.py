@@ -6,7 +6,7 @@ from django.core.validators import URLValidator
 # Create your models here.
 class Category(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid4, editable=False)
-    name = models.CharField(max_length=50)
+    name = models.CharField(max_length=50, blank=True)
 
     # def __str__(self):
     #    return self.name
