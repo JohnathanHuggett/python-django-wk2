@@ -10,6 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
+# LIVE SITE -> https://afternoon-dusk-45623.herokuapp.com/admin/
+
 import os
 from decouple import config
 import dj_database_url
